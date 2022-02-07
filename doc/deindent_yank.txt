@@ -14,10 +14,10 @@ Press gy in normal mode or visual mode.
 ==============================================================================
 MAPPINGS                                        *deindent-yank-mappings*
 
-*<Plug>(deindent-normal-yank)*
+*<Plug>(deindent-yank-normal)*
   yank a line while deindenting it.
 
-*<Plug>(deindent-visual-yank)*
+*<Plug>(deindent-yank-visual)*
   yank the selection while deindenting it.
 
 ==============================================================================
