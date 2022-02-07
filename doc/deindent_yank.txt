@@ -1,0 +1,31 @@
+*deindent-yank.txt*
+
+This plugin removes the minimum indentation and yanks it.
+
+Author:  yuki-yano
+License: MIT
+
+==============================================================================
+USAGE                                           *deindent-yank-usage*
+
+By default, it is mapped to gy.
+Press gy in normal mode or visual mode.
+
+==============================================================================
+MAPPINGS                                        *deindent-yank-mappings*
+
+*<Plug>(deindent-normal-yank)*
+  yank a line while deindenting it.
+
+*<Plug>(deindent-visual-yank)*
+  yank the selection while deindenting it.
+
+==============================================================================
+OPTIONS                                         *deindent-yank-options*
+
+*g:deindent_yank_disable_default_mappings*
+  If true, do not do the default mapping.
+
+  Default value is v:false
+
+vim:tw=78:sw=2:ts=2:ft=help:norl:nowrap:
