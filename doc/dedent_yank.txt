@@ -1,4 +1,4 @@
-*deindent-yank.txt*
+*dedent-yank.txt*
 
 This plugin removes the minimum indentation and yanks it.
 
@@ -6,24 +6,24 @@ Author:  yuki-yano
 License: MIT
 
 ==============================================================================
-USAGE                                           *deindent-yank-usage*
+USAGE                                           *dedent-yank-usage*
 
 By default, it is mapped to gy.
 Press gy in normal mode or visual mode.
 
 ==============================================================================
-MAPPINGS                                        *deindent-yank-mappings*
+MAPPINGS                                        *dedent-yank-mappings*
 
-*<Plug>(deindent-yank-normal)*
-  yank a line while deindenting it.
+*<Plug>(dedent-yank-normal)*
+  yank a line while dedenting it.
 
-*<Plug>(deindent-yank-visual)*
-  yank the selection while deindenting it.
+*<Plug>(dedent-yank-visual)*
+  yank the selection while dedenting it.
 
 ==============================================================================
-OPTIONS                                         *deindent-yank-options*
+OPTIONS                                         *dedent-yank-options*
 
-*g:deindent_yank_disable_default_mappings*
+*g:dedent_yank_disable_default_mappings*
   If true, do not do the default mapping.
 
   Default value is v:false

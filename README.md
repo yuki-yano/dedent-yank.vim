@@ -1,4 +1,4 @@
-# deindent-yank.vim
+# dedent-yank.vim
 
 This plugin removes the minimum indentation and yanks it.
 
